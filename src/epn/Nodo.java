@@ -6,9 +6,14 @@ public class Nodo {
 	private Nodo siguiente;
 		
 	public Nodo(String elemento, Nodo siguiente) {
-		super();
 		this.elemento = elemento;
 		this.siguiente = siguiente;
+	}
+	
+	public Nodo(String elemento){
+		this.elemento=elemento;
+		this.siguiente=null;
+		
 	}
 	
 	public String getElemento(){
